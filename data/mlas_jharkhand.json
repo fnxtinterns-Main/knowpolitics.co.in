@@ -1,0 +1,740 @@
+[
+    {
+        "sl_no": 1,
+        "constituency_no": 1,
+        "constituency": "01.",
+        "name": "राजमहल",
+        "party": " ",
+        "contact": "श्री अनंत कुमार ओझा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 2,
+        "constituency_no": 2,
+        "constituency": "02.",
+        "name": "बोरियो",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री लोबिन हेम्ब्रम",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 3,
+        "constituency_no": 3,
+        "constituency": "03.",
+        "name": "बरहेट",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री हेमन्त सोरेन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 4,
+        "constituency_no": 4,
+        "constituency": "04.",
+        "name": "लिट्टीपाड़ा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री दिनेश विलियम मरांडी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 5,
+        "constituency_no": 5,
+        "constituency": "05.",
+        "name": "पाकुड़",
+        "party": " ",
+        "contact": "श्री आलमगीर आलम",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 6,
+        "constituency_no": 6,
+        "constituency": "06.",
+        "name": "महेशपुर",
+        "party": "(अ.ज.जा)",
+        "contact": "प्रो0 स्टीफन मराण्डी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 7,
+        "constituency_no": 7,
+        "constituency": "07.",
+        "name": "शिकारीपाड़ा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री नलिन सोरेन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 8,
+        "constituency_no": 8,
+        "constituency": "08.",
+        "name": "नाला",
+        "party": " ",
+        "contact": "श्री रबीन्द्र नाथ महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 9,
+        "constituency_no": 9,
+        "constituency": "09.",
+        "name": "जामताड़ा",
+        "party": " ",
+        "contact": "डॉ0 इरफान अंसारी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 10,
+        "constituency_no": 10,
+        "constituency": "10.",
+        "name": "दुमका",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री बसंत सोरेन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 11,
+        "constituency_no": 11,
+        "constituency": "11.",
+        "name": "जामा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्रीमती सीता मुर्मू",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 12,
+        "constituency_no": 12,
+        "constituency": "12.",
+        "name": "जरमुण्डी",
+        "party": " ",
+        "contact": "श्री बादल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 13,
+        "constituency_no": 13,
+        "constituency": "13.",
+        "name": "मधुपुर",
+        "party": " ",
+        "contact": "श्री हफीजुल हसन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 14,
+        "constituency_no": 14,
+        "constituency": "14.",
+        "name": "सारठ",
+        "party": " ",
+        "contact": "श्री रणधीर कुमार सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 15,
+        "constituency_no": 15,
+        "constituency": "15.",
+        "name": "देवघर",
+        "party": "(अ.जा)",
+        "contact": "श्री नारायण दास",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 16,
+        "constituency_no": 16,
+        "constituency": "16.",
+        "name": "पोड़ैयाहाट",
+        "party": " ",
+        "contact": "श्री प्रदीप यादव",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 17,
+        "constituency_no": 17,
+        "constituency": "17.",
+        "name": "गोड्डा",
+        "party": " ",
+        "contact": "श्री अमित कुमार मंडल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 18,
+        "constituency_no": 18,
+        "constituency": "18.",
+        "name": "महगामा",
+        "party": " ",
+        "contact": "श्रीमती दीपिका पाण्डेय सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 19,
+        "constituency_no": 19,
+        "constituency": "19.",
+        "name": "कोडरमा",
+        "party": " ",
+        "contact": "डॉo नीरा यादव",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 20,
+        "constituency_no": 20,
+        "constituency": "20.",
+        "name": "बड़कट्ठा",
+        "party": " ",
+        "contact": "श्री अमित कुमार यादव",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 21,
+        "constituency_no": 21,
+        "constituency": "21.",
+        "name": "बरही",
+        "party": " ",
+        "contact": "श्री उमाशंकर अकेला",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 22,
+        "constituency_no": 22,
+        "constituency": "22.",
+        "name": "बड़कागाँव",
+        "party": " ",
+        "contact": "सुश्री अम्बा प्रसाद",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 23,
+        "constituency_no": 23,
+        "constituency": "23.",
+        "name": "रामगढ़",
+        "party": " ",
+        "contact": "श्रीमती सुनिता चौधरी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 24,
+        "constituency_no": 24,
+        "constituency": "24.",
+        "name": "माण्डू",
+        "party": " ",
+        "contact": "श्री जय प्रकाश भाई पटेल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 25,
+        "constituency_no": 25,
+        "constituency": "25.",
+        "name": "हजारीबाग",
+        "party": " ",
+        "contact": "श्री मनीष जायसवाल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 26,
+        "constituency_no": 26,
+        "constituency": "26.",
+        "name": "सिमरिया",
+        "party": "(अ.जा)",
+        "contact": "श्री किशुन कुमार दास",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 27,
+        "constituency_no": 27,
+        "constituency": "27.",
+        "name": "चतरा",
+        "party": "(अ.जा)",
+        "contact": "श्री सत्यानन्द भोक्ता",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 28,
+        "constituency_no": 28,
+        "constituency": "28.",
+        "name": "धनवार",
+        "party": " ",
+        "contact": "श्री बाबू लाल मरांडी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 29,
+        "constituency_no": 29,
+        "constituency": "29.",
+        "name": "बगोदर",
+        "party": " ",
+        "contact": "श्री विनोद कुमार सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 30,
+        "constituency_no": 30,
+        "constituency": "30.",
+        "name": "जमुआ",
+        "party": "(अ.जा)",
+        "contact": "श्री केदार हजरा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 31,
+        "constituency_no": 31,
+        "constituency": "31.",
+        "name": "गाण्डेय",
+        "party": " ",
+        "contact": "डॉo सरफराज अहमद",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 32,
+        "constituency_no": 32,
+        "constituency": "32.",
+        "name": "गिरिडीह",
+        "party": " ",
+        "contact": "श्री सुदिव्य कुमार",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 33,
+        "constituency_no": 33,
+        "constituency": "33.",
+        "name": "डुमरी",
+        "party": " ",
+        "contact": "श्री जगरनाथ महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 34,
+        "constituency_no": 34,
+        "constituency": "34.",
+        "name": "गोमिया",
+        "party": " ",
+        "contact": "श्री लम्बोदर महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 35,
+        "constituency_no": 35,
+        "constituency": "35.",
+        "name": "बेरमो",
+        "party": " ",
+        "contact": "श्री कुमार जयमंगल\n(श्री अनूप सिंह)",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 36,
+        "constituency_no": 36,
+        "constituency": "36.",
+        "name": "बोकारो",
+        "party": " ",
+        "contact": "श्री बिरंची नारायण",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 37,
+        "constituency_no": 37,
+        "constituency": "37.",
+        "name": "चन्दनकियारी",
+        "party": "(अ.जा)",
+        "contact": "श्री अमर कुमार बाउरी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 38,
+        "constituency_no": 38,
+        "constituency": "38.",
+        "name": "सिंदरी",
+        "party": " ",
+        "contact": "श्री इन्द्रजीत महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 39,
+        "constituency_no": 39,
+        "constituency": "39.",
+        "name": "निरसा",
+        "party": " ",
+        "contact": "श्रीमती अपर्णा सेनगुप्ता",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 40,
+        "constituency_no": 40,
+        "constituency": "40.",
+        "name": "धनबाद",
+        "party": " ",
+        "contact": "श्री राज सिन्हा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 41,
+        "constituency_no": 41,
+        "constituency": "41.",
+        "name": "झरिया",
+        "party": " ",
+        "contact": "श्रीमती पूर्णिमा नीरज सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 42,
+        "constituency_no": 42,
+        "constituency": "42.",
+        "name": "टुण्डी",
+        "party": " ",
+        "contact": "श्री मथुरा प्रसाद महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 43,
+        "constituency_no": 43,
+        "constituency": "43.",
+        "name": "बाघमारा",
+        "party": " ",
+        "contact": "श्री ढुलू महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 44,
+        "constituency_no": 44,
+        "constituency": "44.",
+        "name": "बहरागोड़ा",
+        "party": " ",
+        "contact": "श्री समीर कुमार मोहंती",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 45,
+        "constituency_no": 45,
+        "constituency": "45.",
+        "name": "घाटशिला",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री रामदास सोरेन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 46,
+        "constituency_no": 46,
+        "constituency": "46.",
+        "name": "पोटका",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री संजीव सरदार",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 47,
+        "constituency_no": 47,
+        "constituency": "47.",
+        "name": "जुगसलाई",
+        "party": "(अ.जा)",
+        "contact": "श्री मंगल कालिन्दी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 48,
+        "constituency_no": 48,
+        "constituency": "48.",
+        "name": "जमशेदपुर (पूर्व)",
+        "party": " ",
+        "contact": "श्री सरयू राय",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 49,
+        "constituency_no": 49,
+        "constituency": "49.",
+        "name": "जमशेदपुर (पश्चिम)",
+        "party": " ",
+        "contact": "श्री बन्ना गुप्ता",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 50,
+        "constituency_no": 50,
+        "constituency": "50.",
+        "name": "ईचागढ़",
+        "party": " ",
+        "contact": "श्रीमती सविता महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 51,
+        "constituency_no": 51,
+        "constituency": "51.",
+        "name": "सरायकेला",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री चम्पाई सोरेन",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 52,
+        "constituency_no": 52,
+        "constituency": "52.",
+        "name": "चाईबासा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री दीपक बिरुवा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 53,
+        "constituency_no": 53,
+        "constituency": "53.",
+        "name": "मझगाँव",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री निरल पुरती",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 54,
+        "constituency_no": 54,
+        "constituency": "54.",
+        "name": "जगन्नाथपुर",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री सोनाराम सिंकु",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 55,
+        "constituency_no": 55,
+        "constituency": "55.",
+        "name": "मनोहरपुर",
+        "party": "(अ.ज.जा)",
+        "contact": "श्रीमती जोबा मांझी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 56,
+        "constituency_no": 56,
+        "constituency": "56.",
+        "name": "चक्रधरपुर",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री सुखराम उराँव",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 57,
+        "constituency_no": 57,
+        "constituency": "57.",
+        "name": "खरसावाँ",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री दशरथ गागराई",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 58,
+        "constituency_no": 58,
+        "constituency": "58.",
+        "name": "तमाड़",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री विकास कुमार मुंडा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 59,
+        "constituency_no": 59,
+        "constituency": "59.",
+        "name": "तोरपा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री कोचे मुंडा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 60,
+        "constituency_no": 60,
+        "constituency": "60.",
+        "name": "खूँटी",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री नीलकंठ सिंह मुण्डा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 61,
+        "constituency_no": 61,
+        "constituency": "61.",
+        "name": "सिल्ली",
+        "party": " ",
+        "contact": "श्री सुदेश कुमार महतो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 62,
+        "constituency_no": 62,
+        "constituency": "62.",
+        "name": "खिजरी",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री राजेश कच्छप",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 63,
+        "constituency_no": 63,
+        "constituency": "63.",
+        "name": "राँची",
+        "party": " ",
+        "contact": "श्री चन्द्रेश्वर प्रसाद सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 64,
+        "constituency_no": 64,
+        "constituency": "64.",
+        "name": "हटिया",
+        "party": " ",
+        "contact": "श्री नवीन जयसवाल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 65,
+        "constituency_no": 65,
+        "constituency": "65.",
+        "name": "काँके",
+        "party": "(अ.जा)",
+        "contact": "श्री समरी लाल",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 66,
+        "constituency_no": 66,
+        "constituency": "66.",
+        "name": "मांडर",
+        "party": "(अ.ज.जा)",
+        "contact": "श्रीमती शिल्पी नेहा तिर्की",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 67,
+        "constituency_no": 67,
+        "constituency": "67.",
+        "name": "सिसई",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री जिगा सुसारण होरो",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 68,
+        "constituency_no": 68,
+        "constituency": "68.",
+        "name": "गुमला",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री भूषण तिर्की",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 69,
+        "constituency_no": 69,
+        "constituency": "69.",
+        "name": "बिशुनपुर",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री चमरा लिण्डा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 70,
+        "constituency_no": 70,
+        "constituency": "70.",
+        "name": "सिमडेगा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री भूषण बड़ा",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 71,
+        "constituency_no": 71,
+        "constituency": "71.",
+        "name": "कोलेबिरा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री नमन विक्सल कोनगाड़ी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 72,
+        "constituency_no": 72,
+        "constituency": "72.",
+        "name": "लोहरदगा",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री रामेश्वर उराँव",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 73,
+        "constituency_no": 73,
+        "constituency": "73.",
+        "name": "मनिका",
+        "party": "(अ.ज.जा)",
+        "contact": "श्री रामचन्द्र सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 74,
+        "constituency_no": 74,
+        "constituency": "74.",
+        "name": "लातेहार",
+        "party": "(अ.जा)",
+        "contact": "श्री बैधनाथ राम",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 75,
+        "constituency_no": 75,
+        "constituency": "75.",
+        "name": "पाँकी",
+        "party": " ",
+        "contact": "डॉ0 कुशवाहा शशिभूषण मेहता",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 76,
+        "constituency_no": 76,
+        "constituency": "76.",
+        "name": "डालटेनगंज",
+        "party": " ",
+        "contact": "श्री आलोक कुमार चौरसिया",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 77,
+        "constituency_no": 77,
+        "constituency": "77.",
+        "name": "विश्रामपुर",
+        "party": " ",
+        "contact": "श्री रामचन्द्र चंद्रवंशी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 78,
+        "constituency_no": 78,
+        "constituency": "78.",
+        "name": "छतरपुर",
+        "party": "(अ.जा)",
+        "contact": "श्रीमती पुष्पा देवी",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 79,
+        "constituency_no": 79,
+        "constituency": "79.",
+        "name": "हुसैनाबाद",
+        "party": " ",
+        "contact": "श्री कमलेश कुमार सिंह",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 80,
+        "constituency_no": 80,
+        "constituency": "80.",
+        "name": "गढ़वा",
+        "party": " ",
+        "contact": "श्री मिथिलेश कुमार ठाकुर",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 81,
+        "constituency_no": 81,
+        "constituency": "81.",
+        "name": "भवनाथपुर",
+        "party": " ",
+        "contact": "श्री भानु प्रताप शाही",
+        "state": "Jharkhand"
+    },
+    {
+        "sl_no": 82,
+        "constituency_no": 82,
+        "constituency": "82.",
+        "name": "-",
+        "party": "-",
+        "contact": "श्री ग्लेन जोसेफ गॉलस्टन",
+        "state": "Jharkhand"
+    }
+]

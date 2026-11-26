@@ -1,0 +1,13 @@
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Scraped dumps & cache files
+data/*.pdf
+data/*.html
+data/*.txt
+data/temp_*
+data/test_*

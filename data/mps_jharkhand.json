@@ -1,0 +1,128 @@
+[
+    {
+        "no": 1,
+        "constituency": "कोडरमा",
+        "constituency_en": "Koderma",
+        "name": "श्रीमती अन्नपूर्णा देवी",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "गिरिडीह",
+        "constituency_en": "Giridih",
+        "name": "श्री चन्द्र प्रकाश चौधरी",
+        "party": "एजेएसयू पार्टी (AJSU)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "धनबाद",
+        "constituency_en": "Dhanbad",
+        "name": "श्री दुलू महतो",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "सिंहभूम",
+        "constituency_en": "Singhbhum",
+        "name": "श्रीमती जोबा माझी",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 5,
+        "constituency": "खूँटी",
+        "constituency_en": "Khunti",
+        "name": "श्री काली चरण मुंडा",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 6,
+        "constituency": "चतरा",
+        "constituency_en": "Chatra",
+        "name": "श्री काली चरण सिंह",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 7,
+        "constituency": "हजारीबाग",
+        "constituency_en": "Hazaribagh",
+        "name": "श्री मनीष जायसवाल",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 8,
+        "constituency": "दुमका",
+        "constituency_en": "Dumka",
+        "name": "श्री नलिन सोरेन",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 9,
+        "constituency": "गोड्डा",
+        "constituency_en": "Godda",
+        "name": "डॉ. निशिकान्त दुबे",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 10,
+        "constituency": "राँची",
+        "constituency_en": "Ranchi",
+        "name": "श्री संजय सेठ",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 11,
+        "constituency": "लोहरदगा",
+        "constituency_en": "Lohardaga",
+        "name": "श्री सुखदेव भगत",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 12,
+        "constituency": "जमशेदपुर",
+        "constituency_en": "Jamshedpur",
+        "name": "श्री बिद्युत बरन महतो",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 13,
+        "constituency": "राजमहल",
+        "constituency_en": "Rajmahal",
+        "name": "श्री विजय कुमार हाँसदाक",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 14,
+        "constituency": "पलामू",
+        "constituency_en": "Palamu",
+        "name": "श्री विष्णु दयाल राम",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "SC"
+    }
+]

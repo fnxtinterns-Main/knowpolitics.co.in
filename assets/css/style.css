@@ -1,0 +1,40 @@
+/* assets/css/style.css - Custom styles for KnowPolitics matching official Logo Palette */
+
+:root {
+    --bg-offwhite: #F5F4F0;
+    --surface-white: #FFFFFF;
+    --brand-navy: #152B5D;
+    --brand-orange: #E3771C;
+    --brand-green: #2D643D;
+}
+
+/* Subtle pattern / texture for hero matching warm logo saffron glow */
+.hero-gradient-overlay {
+    background: radial-gradient(circle at 50% 10%, rgba(227, 119, 28, 0.08) 0%, rgba(245, 244, 240, 0) 70%);
+}
+
+/* Subtle glowing accents for cards */
+.card-hover-effect {
+    transition: all 0.25s ease-in-out;
+}
+.card-hover-effect:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px -8px rgba(21, 43, 93, 0.12), 0 4px 6px -2px rgba(21, 43, 93, 0.06);
+}
+
+/* Checklist Notepad Card Visual */
+.notepad-card {
+    background: #FFFDF9;
+    border-left: 4px solid #E3771C;
+    box-shadow: 0 4px 14px rgba(21, 43, 93, 0.08);
+}
+
+/* Parliament Silhouette Effect */
+.parliament-motif {
+    background-image: linear-gradient(to top, rgba(245, 244, 240, 1) 0%, rgba(245, 244, 240, 0.6) 50%, rgba(245, 244, 240, 0.2) 100%);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}

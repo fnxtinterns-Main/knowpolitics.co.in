@@ -1,0 +1,821 @@
+[
+    {
+        "no": 1,
+        "constituency": "अररिया",
+        "constituency_en": "Araria",
+        "name": "श्री प्रदीप कुमार सिंह",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "आरा",
+        "constituency_en": "Arrah",
+        "name": "श्री सुदामा प्रसाद",
+        "party": "भाकपा-माले (CPIML)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "औरंगाबाद",
+        "constituency_en": "Aurangabad",
+        "name": "श्री अभय कुमार सिन्हा",
+        "party": "राष्ट्रीय जनता दल (RJD)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "बांका",
+        "constituency_en": "Banka",
+        "name": "श्री गिरिधारी यादव",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 5,
+        "constituency": "बेगूसराय",
+        "constituency_en": "Begusarai",
+        "name": "श्री गिरिराज सिंह",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 6,
+        "constituency": "भागलपुर",
+        "constituency_en": "Bhagalpur",
+        "name": "श्री अजय कुमार मंडल",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 7,
+        "constituency": "बक्सर",
+        "constituency_en": "Buxar",
+        "name": "श्री सुधाकर सिंह",
+        "party": "राष्ट्रीय जनता दल (RJD)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 8,
+        "constituency": "दरभंगा",
+        "constituency_en": "Darbhanga",
+        "name": "श्री गोपाल जी ठाकुर",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 9,
+        "constituency": "गया",
+        "constituency_en": "Gaya",
+        "name": "श्री जीतन राम माँझी",
+        "party": "हिंदुस्तानी अवाम मोर्चा (HAM)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 10,
+        "constituency": "गोपालगंज",
+        "constituency_en": "Gopalganj",
+        "name": "डा0 आलोक कुमार सुमन",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 11,
+        "constituency": "हाजीपुर",
+        "constituency_en": "Hajipur",
+        "name": "श्री चिराग पासवान",
+        "party": "लोजपा (रामविलास) (LJPRV)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 12,
+        "constituency": "जहानाबाद",
+        "constituency_en": "Jehanabad",
+        "name": "श्री सुरेन्द्र प्रसाद यादव",
+        "party": "राष्ट्रीय जनता दल (RJD)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 13,
+        "constituency": "जमुई",
+        "constituency_en": "Jamui",
+        "name": "श्री अरुण भारती",
+        "party": "लोजपा (रामविलास) (LJPRV)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 14,
+        "constituency": "झंझारपुर",
+        "constituency_en": "Jhanjharpur",
+        "name": "श्री रामप्रीत मंडल",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 15,
+        "constituency": "काराकाट",
+        "constituency_en": "Karakat",
+        "name": "श्री राजा राम सिंह",
+        "party": "भाकपा-माले (CPIML)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 16,
+        "constituency": "कटिहार",
+        "constituency_en": "Katihar",
+        "name": "श्री तारिक अनवर",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 17,
+        "constituency": "खगड़िया",
+        "constituency_en": "Khagaria",
+        "name": "श्री राजेश वर्मा",
+        "party": "लोजपा (रामविलास) (LJPRV)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 18,
+        "constituency": "किशनगंज",
+        "constituency_en": "Kishanganj",
+        "name": "डा0 मोहम्मद जावेद",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 19,
+        "constituency": "मधेपुरा",
+        "constituency_en": "Madhepura",
+        "name": "श्री दिनेश चन्द्र यादव",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 20,
+        "constituency": "मधुबनी",
+        "constituency_en": "Madhubani",
+        "name": "श्री अशोक कुमार यादव",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 21,
+        "constituency": "महाराजगंज",
+        "constituency_en": "Maharajganj",
+        "name": "श्री जनार्दन सिंह सिग्रीवाल",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 22,
+        "constituency": "मुंगेर",
+        "constituency_en": "Munger",
+        "name": "श्री राजीव रंजन सिंह (ललन सिंह)",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 23,
+        "constituency": "मुजफ्फरपुर",
+        "constituency_en": "Muzaffarpur",
+        "name": "डा0 राज भूषण चौधरी",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 24,
+        "constituency": "नालन्दा",
+        "constituency_en": "Nalanda",
+        "name": "श्री कौशलेन्द्र कुमार",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 25,
+        "constituency": "नवादा",
+        "constituency_en": "Nawada",
+        "name": "श्री विवेक ठाकुर",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 26,
+        "constituency": "पश्चिम चम्पारण",
+        "constituency_en": "Paschim Champaran",
+        "name": "डा0 संजय जायसवाल",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 27,
+        "constituency": "पाटलीपुत्र",
+        "constituency_en": "Pataliputra",
+        "name": "श्रीमती मीसा भारती",
+        "party": "राष्ट्रीय जनता दल (RJD)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 28,
+        "constituency": "पटना साहिब",
+        "constituency_en": "Patna Sahib",
+        "name": "श्री रवि शंकर प्रसाद",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 29,
+        "constituency": "पूर्णियां",
+        "constituency_en": "Purnia",
+        "name": "श्री राजेश रंजन (पप्पू यादव)",
+        "party": "निर्दलीय (IND)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 30,
+        "constituency": "पूर्वी चम्पारण",
+        "constituency_en": "Purvi Champaran",
+        "name": "श्री राधामोहन सिंह",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 31,
+        "constituency": "समस्तीपुर",
+        "constituency_en": "Samastipur",
+        "name": "श्रीमती शाम्भवी",
+        "party": "लोजपा (रामविलास) (LJPRV)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 32,
+        "constituency": "सारण",
+        "constituency_en": "Saran",
+        "name": "श्री राजीव प्रताप रूडी",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 33,
+        "constituency": "सासाराम",
+        "constituency_en": "Sasaram",
+        "name": "श्री मनोज कुमार",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Bihar",
+        "category": "SC"
+    },
+    {
+        "no": 34,
+        "constituency": "शिवहर",
+        "constituency_en": "Sheohar",
+        "name": "श्रीमती लवली आनंद",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 35,
+        "constituency": "सीतामढ़ी",
+        "constituency_en": "Sitamarhi",
+        "name": "श्री देवेश चन्द्र ठाकुर",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 36,
+        "constituency": "सीवान",
+        "constituency_en": "Siwan",
+        "name": "श्रीमती विजयलक्ष्मी देवी",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 37,
+        "constituency": "सुपौल",
+        "constituency_en": "Supaul",
+        "name": "श्री दिलेश्वर कामत",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 38,
+        "constituency": "उजियारपुर",
+        "constituency_en": "Ujiarpur",
+        "name": "श्री नित्यानंद राय",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 39,
+        "constituency": "वैशाली",
+        "constituency_en": "Vaishali",
+        "name": "श्रीमती वीणा देवी",
+        "party": "लोजपा (रामविलास) (LJPRV)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 40,
+        "constituency": "वाल्मीकि नगर",
+        "constituency_en": "Valmiki Nagar",
+        "name": "श्री सुनील कुमार",
+        "party": "जनता दल (यूनाइटेड) (JDU)",
+        "state": "Bihar",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "कोडरमा",
+        "constituency_en": "Koderma",
+        "name": "श्रीमती अन्नपूर्णा देवी",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "गिरिडीह",
+        "constituency_en": "Giridih",
+        "name": "श्री चन्द्र प्रकाश चौधरी",
+        "party": "एजेएसयू पार्टी (AJSU)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "धनबाद",
+        "constituency_en": "Dhanbad",
+        "name": "श्री दुलू महतो",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "सिंहभूम",
+        "constituency_en": "Singhbhum",
+        "name": "श्रीमती जोबा माझी",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 5,
+        "constituency": "खूँटी",
+        "constituency_en": "Khunti",
+        "name": "श्री काली चरण मुंडा",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 6,
+        "constituency": "चतरा",
+        "constituency_en": "Chatra",
+        "name": "श्री काली चरण सिंह",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 7,
+        "constituency": "हजारीबाग",
+        "constituency_en": "Hazaribagh",
+        "name": "श्री मनीष जायसवाल",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 8,
+        "constituency": "दुमका",
+        "constituency_en": "Dumka",
+        "name": "श्री नलिन सोरेन",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 9,
+        "constituency": "गोड्डा",
+        "constituency_en": "Godda",
+        "name": "डॉ. निशिकान्त दुबे",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 10,
+        "constituency": "राँची",
+        "constituency_en": "Ranchi",
+        "name": "श्री संजय सेठ",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 11,
+        "constituency": "लोहरदगा",
+        "constituency_en": "Lohardaga",
+        "name": "श्री सुखदेव भगत",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 12,
+        "constituency": "जमशेदपुर",
+        "constituency_en": "Jamshedpur",
+        "name": "श्री बिद्युत बरन महतो",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "General"
+    },
+    {
+        "no": 13,
+        "constituency": "राजमहल",
+        "constituency_en": "Rajmahal",
+        "name": "श्री विजय कुमार हाँसदाक",
+        "party": "झारखंड मुक्ति मोर्चा (JMM)",
+        "state": "Jharkhand",
+        "category": "ST"
+    },
+    {
+        "no": 14,
+        "constituency": "पलामू",
+        "constituency_en": "Palamu",
+        "name": "श्री विष्णु दयाल राम",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Jharkhand",
+        "category": "SC"
+    },
+    {
+        "no": 1,
+        "constituency": "वाराणसी",
+        "constituency_en": "Varanasi",
+        "name": "श्री नरेन्द्र मोदी (Narendra Modi)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "रायबरेली",
+        "constituency_en": "Rae Bareli",
+        "name": "श्री राहुल गांधी (Rahul Gandhi)",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "कन्नौज",
+        "constituency_en": "Kannauj",
+        "name": "श्री अखिलेश यादव (Akhilesh Yadav)",
+        "party": "समाजवादी पार्टी (SP)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "लखनऊ",
+        "constituency_en": "Lucknow",
+        "name": "श्री राजनाथ सिंह (Rajnath Singh)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 5,
+        "constituency": "मैनपुरी",
+        "constituency_en": "Mainpuri",
+        "name": "श्रीमती डिंपल यादव (Dimple Yadav)",
+        "party": "समाजवादी पार्टी (SP)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 6,
+        "constituency": "अयोध्या (फैजाबाद)",
+        "constituency_en": "Faizabad",
+        "name": "श्री अवधेश प्रसाद (Awadhesh Prasad)",
+        "party": "समाजवादी पार्टी (SP)",
+        "state": "Uttar Pradesh",
+        "category": "SC"
+    },
+    {
+        "no": 7,
+        "constituency": "गोरखपुर",
+        "constituency_en": "Gorakhpur",
+        "name": "श्री रवि किशन (Ravi Kishan)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 8,
+        "constituency": "अमेठी",
+        "constituency_en": "Amethi",
+        "name": "श्री किशोरी लाल शर्मा (K.L. Sharma)",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Uttar Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "नागपुर",
+        "constituency_en": "Nagpur",
+        "name": "श्री नितिन गडकरी (Nitin Gadkari)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Maharashtra",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "बारामती",
+        "constituency_en": "Baramati",
+        "name": "श्रीमती सुप्रिया सुले (Supriya Sule)",
+        "party": "राकांपा (शरद पवार) (NCP-SP)",
+        "state": "Maharashtra",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "मुंबई उत्तर",
+        "constituency_en": "Mumbai North",
+        "name": "श्री पीयूष गोयल (Piyush Goyal)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Maharashtra",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "मुंबई दक्षिण",
+        "constituency_en": "Mumbai South",
+        "name": "श्री अरविंद सावंत (Arvind Sawant)",
+        "party": "शिवसेना (यूबीटी) (SS-UBT)",
+        "state": "Maharashtra",
+        "category": "General"
+    },
+    {
+        "no": 5,
+        "constituency": "कल्याण",
+        "constituency_en": "Kalyan",
+        "name": "श्री श्रीकांत शिंदे (Shrikant Shinde)",
+        "party": "शिवसेना (SHS)",
+        "state": "Maharashtra",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "डायमंड हार्बर",
+        "constituency_en": "Diamond Harbour",
+        "name": "श्री अभिषेक बनर्जी (Abhishek Banerjee)",
+        "party": "तृणमूल कांग्रेस (AITC)",
+        "state": "West Bengal",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "कृष्णनगर",
+        "constituency_en": "Krishnanagar",
+        "name": "श्रीमती महुआ मोइत्रा (Mahua Moitra)",
+        "party": "तृणमूल कांग्रेस (AITC)",
+        "state": "West Bengal",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "बहरामपुर",
+        "constituency_en": "Baharampur",
+        "name": "श्री यूसुफ पठान (Yusuf Pathan)",
+        "party": "तृणमूल कांग्रेस (AITC)",
+        "state": "West Bengal",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "आसनसोल",
+        "constituency_en": "Asansol",
+        "name": "श्री शत्रुघ्न सिन्हा (Shatrughan Sinha)",
+        "party": "तृणमूल कांग्रेस (AITC)",
+        "state": "West Bengal",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "नई दिल्ली",
+        "constituency_en": "New Delhi",
+        "name": "श्रीमती बांसुरी स्वराज (Bansuri Swaraj)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Delhi (NCT)",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "उत्तर पूर्वी दिल्ली",
+        "constituency_en": "North East Delhi",
+        "name": "श्री मनोज तिवारी (Manoj Tiwari)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Delhi (NCT)",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "चांदनी चौक",
+        "constituency_en": "Chandni Chowk",
+        "name": "श्री प्रवीन खंडेलवाल (Praveen Khandelwal)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Delhi (NCT)",
+        "category": "General"
+    },
+    {
+        "no": 4,
+        "constituency": "पूर्वी दिल्ली",
+        "constituency_en": "East Delhi",
+        "name": "श्री हर्ष मल्होत्रा (Harsh Malhotra)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Delhi (NCT)",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "तूथुकुडी",
+        "constituency_en": "Thoothukkudi",
+        "name": "श्रीमती कनिमोझी (Kanimozhi Karunanidhi)",
+        "party": "द्रमुक (DMK)",
+        "state": "Tamil Nadu",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "चेन्नई सेंट्रल",
+        "constituency_en": "Chennai Central",
+        "name": "श्री दयानिधि मारन (Dayanidhi Maran)",
+        "party": "द्रमुक (DMK)",
+        "state": "Tamil Nadu",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "श्रीपेरुंबुदूर",
+        "constituency_en": "Sriperumbudur",
+        "name": "श्री टी.आर. बालू (T.R. Baalu)",
+        "party": "द्रमुक (DMK)",
+        "state": "Tamil Nadu",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "बेंगलुरु दक्षिण",
+        "constituency_en": "Bangalore South",
+        "name": "श्री तेजस्वी सूर्या (Tejasvi Surya)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Karnataka",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "मांड्या",
+        "constituency_en": "Mandya",
+        "name": "श्री एच.डी. कुमारस्वामी (H.D. Kumaraswamy)",
+        "party": "जनता दल (सेक्युलर) (JDS)",
+        "state": "Karnataka",
+        "category": "General"
+    },
+    {
+        "no": 3,
+        "constituency": "धारवाड़",
+        "constituency_en": "Dharwad",
+        "name": "श्री प्रल्हाद जोशी (Pralhad Joshi)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Karnataka",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "तिरुवनंतपुरम",
+        "constituency_en": "Thiruvananthapuram",
+        "name": "डॉ. शशि थरूर (Shashi Tharoor)",
+        "party": "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "state": "Kerala",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "त्रिशूर",
+        "constituency_en": "Thrissur",
+        "name": "श्री सुरेश गोपी (Suresh Gopi)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Kerala",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "हैदराबाद",
+        "constituency_en": "Hyderabad",
+        "name": "श्री असदुद्दीन ओवैसी (Asaduddin Owaisi)",
+        "party": "एआईएमआईएम (AIMIM)",
+        "state": "Telangana",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "सिकंदराबाद",
+        "constituency_en": "Secunderabad",
+        "name": "श्री जी. किशन रेड्डी (G. Kishan Reddy)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Telangana",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "कोटा",
+        "constituency_en": "Kota",
+        "name": "श्री ओम बिरला (Om Birla - Lok Sabha Speaker)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Rajasthan",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "जोधपुर",
+        "constituency_en": "Jodhpur",
+        "name": "श्री गजेन्द्र सिंह शेखावत (Gajendra Singh Shekhawat)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Rajasthan",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "गांधीनगर",
+        "constituency_en": "Gandhinagar",
+        "name": "श्री अमित शाह (Amit Shah)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Gujarat",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "नवसारी",
+        "constituency_en": "Navsari",
+        "name": "श्री सी.आर. पाटिल (C.R. Paatil)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Gujarat",
+        "category": "General"
+    },
+    {
+        "no": 1,
+        "constituency": "विदिशा",
+        "constituency_en": "Vidisha",
+        "name": "श्री शिवराज सिंह चौहान (Shivraj Singh Chouhan)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Madhya Pradesh",
+        "category": "General"
+    },
+    {
+        "no": 2,
+        "constituency": "गुना",
+        "constituency_en": "Guna",
+        "name": "श्री ज्योतिरादित्य सिंधिया (Jyotiraditya Scindia)",
+        "party": "भारतीय जनता पार्टी (BJP)",
+        "state": "Madhya Pradesh",
+        "category": "General"
+    }
+]

@@ -1,0 +1,129 @@
+<?php
+// data/generate_works_data.php - Generates development works & legislative performance data
+$categories = ['Roads & Highways', 'Healthcare & Clinics', 'Education & Schools', 'Drinking Water & Sanitation', 'Rural Electrification'];
+
+$sample_works = [
+    [
+        'id' => 'PRJ-JH-01',
+        'constituency' => 'हजारीबाग',
+        'constituency_en' => 'Hazaribagh',
+        'state' => 'Jharkhand',
+        'title' => 'Construction of 4-lane Ring Road Link to NH-33',
+        'title_hi' => 'एनएच-33 से हजारीबाग 4-लेन रिंग रोड लिंक का निर्माण',
+        'category' => 'Roads & Highways',
+        'cost_cr' => 12.50,
+        'status' => 'In Progress',
+        'completion_pct' => 78,
+        'scheme' => 'MPLADS / State PWD',
+        'started_date' => '2023-04-10',
+        'agency' => 'Jharkhand Road Projects Agency'
+    ],
+    [
+        'id' => 'PRJ-JH-02',
+        'constituency' => 'राँची',
+        'constituency_en' => 'Ranchi',
+        'state' => 'Jharkhand',
+        'title' => 'Establishment of 50-bed Sub-divisional Hospital in Dhurwa',
+        'title_hi' => 'धुर्वा में 50-बेड अनुमंडलीय उप-अस्पताल की स्थापना',
+        'category' => 'Healthcare & Clinics',
+        'cost_cr' => 8.20,
+        'status' => 'Completed',
+        'completion_pct' => 100,
+        'scheme' => 'National Health Mission / MPLADS',
+        'started_date' => '2022-11-15',
+        'agency' => 'Health & Family Welfare Dept'
+    ],
+    [
+        'id' => 'PRJ-JH-03',
+        'constituency' => 'कोडरमा',
+        'constituency_en' => 'Koderma',
+        'state' => 'Jharkhand',
+        'title' => 'Rural Solar-Powered Deep Tubewell Drinking Water Project',
+        'title_hi' => 'ग्रामीण क्षेत्रों में सोलर संचालित डीप बोरिंग पेयजल परियोजना',
+        'category' => 'Drinking Water & Sanitation',
+        'cost_cr' => 4.60,
+        'status' => 'Completed',
+        'completion_pct' => 100,
+        'scheme' => 'Jal Jeevan Mission / MPLADS',
+        'started_date' => '2023-01-20',
+        'agency' => 'Drinking Water & Sanitation Dept'
+    ],
+    [
+        'id' => 'PRJ-JH-04',
+        'constituency' => 'धनबाद',
+        'constituency_en' => 'Dhanbad',
+        'state' => 'Jharkhand',
+        'title' => 'Modernization & Digital Classrooms in 12 Government High Schools',
+        'title_hi' => '12 राजकीय उच्च विद्यालयों में डिजिटल क्लासरूम व आधुनिकीकरण',
+        'category' => 'Education & Schools',
+        'cost_cr' => 3.40,
+        'status' => 'In Progress',
+        'completion_pct' => 85,
+        'scheme' => 'Samagra Shiksha Abhiyan',
+        'started_date' => '2023-08-01',
+        'agency' => 'Jharkhand Education Project Council'
+    ],
+    [
+        'id' => 'PRJ-BR-01',
+        'constituency' => 'हाजीपुर',
+        'constituency_en' => 'Hajipur',
+        'state' => 'Bihar',
+        'title' => 'Upgradation of Rural Connecting Bridges & Flood Protection Bunds',
+        'title_hi' => 'ग्रामीण संपर्क पुलों का उच्चीकरण एवं बाढ़ सुरक्षा तटबंध निर्माण',
+        'category' => 'Roads & Highways',
+        'cost_cr' => 14.80,
+        'status' => 'In Progress',
+        'completion_pct' => 65,
+        'scheme' => 'PMGSY / MPLADS',
+        'started_date' => '2023-05-12',
+        'agency' => 'Rural Works Department Bihar'
+    ],
+    [
+        'id' => 'PRJ-BR-02',
+        'constituency' => 'गया',
+        'constituency_en' => 'Gaya',
+        'state' => 'Bihar',
+        'title' => 'Construction of 15 Community Health & Wellness Centers in Rural Blocks',
+        'title_hi' => 'ग्रामीण प्रखंडों में 15 प्राथमिक स्वास्थ्य व आरोग्य केंद्रों का निर्माण',
+        'category' => 'Healthcare & Clinics',
+        'cost_cr' => 8.40,
+        'status' => 'Completed',
+        'completion_pct' => 100,
+        'scheme' => 'Ayushman Bharat / MLALADS',
+        'started_date' => '2022-09-10',
+        'agency' => 'Bihar Medical Infrastructure Corp'
+    ],
+    [
+        'id' => 'PRJ-BR-03',
+        'constituency' => 'पटना साहिब',
+        'constituency_en' => 'Patna Sahib',
+        'state' => 'Bihar',
+        'title' => 'Stormwater Drainage & Sewer Line Renovation in Urban Wards',
+        'title_hi' => 'शहरी वार्डों में वर्षा जल निकासी एवं सीवर लाइन जीर्णोद्धार परियोजना',
+        'category' => 'Drinking Water & Sanitation',
+        'cost_cr' => 19.50,
+        'status' => 'In Progress',
+        'completion_pct' => 70,
+        'scheme' => 'AMRUT 2.0 / MPLADS',
+        'started_date' => '2023-03-15',
+        'agency' => 'Patna Municipal Corporation'
+    ],
+    [
+        'id' => 'PRJ-BR-04',
+        'constituency' => 'मुजफ्फरपुर',
+        'constituency_en' => 'Muzaffarpur',
+        'state' => 'Bihar',
+        'title' => 'Cold Storage & Agro-Processing Hub for Litchi & Maize Farmers',
+        'title_hi' => 'लीची व मक्का किसानों हेतु आधुनिक कोल्ड स्टोरेज एवं प्रसंस्करण केंद्र',
+        'category' => 'Rural Infrastructure',
+        'cost_cr' => 11.20,
+        'status' => 'Sanctioned',
+        'completion_pct' => 30,
+        'scheme' => 'Agriculture Infrastructure Fund',
+        'started_date' => '2024-01-10',
+        'agency' => 'Bihar State Agro Industries'
+    ]
+];
+
+file_put_contents(__DIR__ . '/works_data.json', json_encode($sample_works, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+echo "Generated " . count($sample_works) . " development works in data/works_data.json\n";
