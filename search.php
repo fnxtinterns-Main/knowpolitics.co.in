@@ -162,7 +162,7 @@ include __DIR__ . '/includes/header.php';
 
                                 <div class="mt-4 pt-3 border-t border-slate-100">
                                     <a 
-                                        href="report-card.php?name=<?php echo urlencode($m['name']); ?>&const=<?php echo urlencode($m['constituency']); ?>" 
+                                        href="report-card?name=<?php echo urlencode($m['name']); ?>&const=<?php echo urlencode($m['constituency']); ?>" 
                                         class="w-full inline-flex items-center justify-center gap-1.5 bg-brandOrange hover:bg-brandOrangeDark text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-sm"
                                     >
                                         <span>View Photo & Work Report</span>
@@ -212,7 +212,7 @@ include __DIR__ . '/includes/header.php';
                                 </div>
                                 <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
                                     <span class="text-slate-500 font-medium">Scheme: <strong><?php echo htmlspecialchars($w['scheme']); ?></strong></span>
-                                    <a href="report-card.php?const=<?php echo urlencode($w['constituency_en']); ?>" class="text-brandTeal font-bold hover:underline">
+                                    <a href="report-card?const=<?php echo urlencode($w['constituency_en']); ?>" class="text-brandTeal font-bold hover:underline">
                                         Constituency Report →
                                     </a>
                                 </div>

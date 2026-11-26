@@ -202,7 +202,7 @@ include __DIR__ . '/includes/header.php';
                         <!-- Action Button -->
                         <div class="mt-4 pt-3 border-t border-slate-100">
                             <a 
-                                href="report-card.php?type=mla&name=<?php echo urlencode($mla['name']); ?>&const=<?php echo urlencode($mla['constituency']); ?>" 
+                                href="report-card?type=mla&name=<?php echo urlencode($mla['name']); ?>&const=<?php echo urlencode($mla['constituency']); ?>" 
                                 class="w-full inline-flex items-center justify-center gap-1.5 text-xs font-bold text-slateNavy hover:text-brandTeal bg-slate-50 hover:bg-slate-100 border border-slate-200 py-2 rounded-xl transition-all"
                             >
                                 <span><?php echo ($current_lang === 'hi') ? 'रिपोर्ट कार्ड देखें' : 'View Photo & Work Report'; ?></span>

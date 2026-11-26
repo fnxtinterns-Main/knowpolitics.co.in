@@ -209,7 +209,7 @@ include __DIR__ . '/includes/header.php';
                     <label class="block text-xs font-black uppercase text-slate-500 tracking-wider mb-2">
                         Select Any State / Union Territory
                     </label>
-                    <select id="state-select-dropdown" onchange="window.location.href='states.php?state=' + this.value;" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm font-bold text-slateNavy focus:outline-none focus:border-brandTeal">
+                    <select id="state-select-dropdown" onchange="window.location.href='states?state=' + this.value;" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm font-bold text-slateNavy focus:outline-none focus:border-brandTeal">
                         <?php foreach ($states as $s): ?>
                             <option value="<?php echo $s['id']; ?>" <?php echo $s['id'] === $current_state_info['id'] ? 'selected' : ''; ?>>
                                 <?php echo htmlspecialchars($s['name']); ?> (<?php echo htmlspecialchars($s['name_hi']); ?>) • <?php echo $s['ls_seats']; ?> Lok Sabha
@@ -250,11 +250,11 @@ include __DIR__ . '/includes/header.php';
 
                     <!-- Quick Action Links -->
                     <div class="pt-2 flex gap-2">
-                        <a href="mp.php?state=<?php echo urlencode($current_state_info['name']); ?>" class="flex-1 text-center bg-brandOrange hover:bg-brandOrangeDark text-white text-xs font-black py-2.5 rounded-xl transition-all shadow">
+                        <a href="mp?state=<?php echo urlencode($current_state_info['name']); ?>" class="flex-1 text-center bg-brandOrange hover:bg-brandOrangeDark text-white text-xs font-black py-2.5 rounded-xl transition-all shadow">
                             View All MPs (<?php echo $current_state_info['ls_seats']; ?>)
                         </a>
                         <?php if ($current_state_info['vs_seats'] > 0): ?>
-                            <a href="mla.php?state=<?php echo urlencode($current_state_info['name']); ?>" class="flex-1 text-center bg-white/20 hover:bg-white/30 text-white text-xs font-bold py-2.5 rounded-xl transition-all">
+                            <a href="mla?state=<?php echo urlencode($current_state_info['name']); ?>" class="flex-1 text-center bg-white/20 hover:bg-white/30 text-white text-xs font-bold py-2.5 rounded-xl transition-all">
                                 View MLAs (<?php echo $current_state_info['vs_seats']; ?>)
                             </a>
                         <?php endif; ?>
@@ -361,7 +361,7 @@ include __DIR__ . '/includes/header.php';
 
                             <div class="mt-4 pt-3 border-t border-slate-100">
                                 <a 
-                                    href="report-card.php?name=<?php echo urlencode($rep['name']); ?>&const=<?php echo urlencode($rep['constituency']); ?>" 
+                                    href="report-card?name=<?php echo urlencode($rep['name']); ?>&const=<?php echo urlencode($rep['constituency']); ?>" 
                                     class="w-full inline-flex items-center justify-center gap-1.5 bg-brandOrange hover:bg-brandOrangeDark text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-sm"
                                 >
                                     <span>View Scorecard & Works</span>
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
         p.addEventListener('click', () => {
             const stateId = p.getAttribute('data-id');
             if (stateId) {
-                window.location.href = 'states.php?state=' + encodeURIComponent(stateId);
+                window.location.href = 'states?state=' + encodeURIComponent(stateId);
             }
         });
 

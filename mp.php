@@ -205,7 +205,7 @@ include __DIR__ . '/includes/header.php';
                         <!-- Action Button -->
                         <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-2">
                             <a 
-                                href="report-card.php?type=mp&name=<?php echo urlencode($mp['name']); ?>&const=<?php echo urlencode($mp['constituency_en']); ?>" 
+                                href="report-card?type=mp&name=<?php echo urlencode($mp['name']); ?>&const=<?php echo urlencode($mp['constituency_en']); ?>" 
                                 class="flex-1 inline-flex items-center justify-center gap-1.5 text-xs font-bold text-slateNavy hover:text-brandTeal bg-slate-50 hover:bg-slate-100 border border-slate-200 py-2 rounded-xl transition-all"
                             >
                                 <span>View Photo & Work Report</span>

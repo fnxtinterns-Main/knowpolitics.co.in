@@ -123,7 +123,7 @@ include __DIR__ . '/includes/header.php';
 
                         <!-- All India Map Feature Banner -->
                         <div class="mt-4 max-w-xl">
-                            <a href="states.php?lang=<?php echo $current_lang; ?>" class="flex items-center justify-between p-3.5 bg-gradient-to-r from-brandNavyDark via-brandNavy to-brandNavyDark text-white rounded-xl shadow-md hover:shadow-lg transition-all group border border-slate-700">
+                            <a href="states" class="flex items-center justify-between p-3.5 bg-gradient-to-r from-brandNavyDark via-brandNavy to-brandNavyDark text-white rounded-xl shadow-md hover:shadow-lg transition-all group border border-slate-700">
                                 <div class="flex items-center gap-3">
                                     <span class="text-2xl">🗺️</span>
                                     <div>

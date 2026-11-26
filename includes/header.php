@@ -66,29 +66,29 @@ $other_lang_label = ($current_lang === 'hi') ? 'English' : 'हिंदी';
                 
                 <!-- Logo & Brand (Enlarged) -->
                 <div class="flex items-center">
-                    <a href="index.php?lang=<?php echo $current_lang; ?>" class="flex items-center group" title="Know Politics">
+                    <a href="./" class="flex items-center group" title="Know Politics">
                         <img src="assets/images/logo.jpg" alt="Know Politics Logo" class="h-16 sm:h-20 max-h-20 w-auto object-contain rounded-lg shadow-sm border border-slate-200/80 bg-white p-1 group-hover:scale-105 transition-transform">
                     </a>
                 </div>
 
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden lg:flex items-center space-x-1">
-                    <a href="index.php?lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-bold text-brandTeal border-b-2 border-brandTeal transition-colors">
+                    <a href="./" class="px-3 py-2 text-sm font-bold text-brandTeal border-b-2 border-brandTeal transition-colors">
                         <?php echo __t('nav_home'); ?>
                     </a>
-                    <a href="states.php?lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors flex items-center gap-1">
+                    <a href="states" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors flex items-center gap-1">
                         <span>🗺️ India Map</span>
                     </a>
-                    <a href="mla.php?lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
+                    <a href="mla" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
                         <?php echo __t('nav_mla'); ?>
                     </a>
-                    <a href="mp.php?lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
+                    <a href="mp" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
                         <?php echo __t('nav_mp'); ?>
                     </a>
-                    <a href="search.php?tab=works&lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
+                    <a href="search?tab=works" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
                         <?php echo __t('nav_projects'); ?>
                     </a>
-                    <a href="report-card.php?lang=<?php echo $current_lang; ?>" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
+                    <a href="report-card" class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-brandTeal transition-colors">
                         <?php echo __t('nav_report'); ?>
                     </a>
                 </nav>
@@ -124,12 +124,12 @@ $other_lang_label = ($current_lang === 'hi') ? 'English' : 'हिंदी';
 
         <!-- Mobile Nav Menu (Collapsible) -->
         <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-4 space-y-1">
-            <a href="index.php?lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-semibold text-brandTeal"><?php echo __t('nav_home'); ?></a>
-            <a href="states.php?lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-medium text-slate-700">🗺️ India Map & States</a>
-            <a href="mla.php?lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_mla'); ?></a>
-            <a href="mp.php?lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_mp'); ?></a>
-            <a href="search.php?tab=works&lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_projects'); ?></a>
-            <a href="report-card.php?lang=<?php echo $current_lang; ?>" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_report'); ?></a>
+            <a href="./" class="block px-3 py-2 text-base font-semibold text-brandTeal"><?php echo __t('nav_home'); ?></a>
+            <a href="states" class="block px-3 py-2 text-base font-medium text-slate-700">🗺️ India Map & States</a>
+            <a href="mla" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_mla'); ?></a>
+            <a href="mp" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_mp'); ?></a>
+            <a href="search?tab=works" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_projects'); ?></a>
+            <a href="report-card" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_report'); ?></a>
             <a href="#features" class="block px-3 py-2 text-base font-medium text-slate-700"><?php echo __t('nav_analysis'); ?></a>
             <div class="pt-2 border-t border-slate-100 flex justify-end items-center">
                 <a href="?lang=<?php echo $other_lang; ?>" class="text-xs font-bold text-brandOrange"><?php echo $other_lang_label; ?></a>

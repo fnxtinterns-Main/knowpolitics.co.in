@@ -1,11 +1,11 @@
 <?php
 // includes/db.php - MySQL Database Connection & Fallback Handler
 
-define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
+define('DB_HOST', getenv('DB_HOST') ?: 'srv921.hstgr.io');
 define('DB_PORT', getenv('DB_PORT') ?: '3306');
-define('DB_NAME', getenv('DB_NAME') ?: 'knowpolitics');
-define('DB_USER', getenv('DB_USER') ?: 'root');
-define('DB_PASS', getenv('DB_PASS') ?: '');
+define('DB_NAME', getenv('DB_NAME') ?: 'u369924234_knowpolitics');
+define('DB_USER', getenv('DB_USER') ?: 'u369924234_knowpolitics');
+define('DB_PASS', getenv('DB_PASS') ?: 'Knowpolitics@99');
 
 function get_db_connection() {
     static $pdo = null;
@@ -16,19 +16,29 @@ function get_db_connection() {
     }
     $attempted = true;
 
-    try {
-        $dsn = "mysql:host=" . DB_HOST . ";port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=utf8mb4";
-        $options = [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::ATTR_TIMEOUT => 2,
-        ];
-        $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
-    } catch (PDOException $e) {
-        $pdo = null;
+    // Credentials sets: Hostinger production credentials, and local development fallback
+    $credential_sets = [
+        ['host' => DB_HOST, 'user' => DB_USER, 'pass' => DB_PASS],
+        ['host' => 'localhost', 'user' => DB_USER, 'pass' => DB_PASS],
+        ['host' => '127.0.0.1', 'user' => 'root', 'pass' => ''],
+    ];
+
+    foreach ($credential_sets as $cred) {
+        try {
+            $dsn = "mysql:host=" . $cred['host'] . ";port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=utf8mb4";
+            $options = [
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                PDO::ATTR_TIMEOUT => 2,
+            ];
+            $pdo = new PDO($dsn, $cred['user'], $cred['pass'], $options);
+            return $pdo;
+        } catch (PDOException $e) {
+            $pdo = null;
+        }
     }
 
-    return $pdo;
+    return null;
 }
 
 /**

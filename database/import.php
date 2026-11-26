@@ -9,26 +9,42 @@ $status = 'info';
 
 if (isset($_POST['import']) || php_sapi_name() === 'cli') {
     try {
-        $root_pdo = new PDO("mysql:host=" . DB_HOST . ";port=" . DB_PORT . ";charset=utf8mb4", DB_USER, DB_PASS, [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-        ]);
-
-        $sql_mla = __DIR__ . '/knowpolitics_mlas.sql';
-        $sql_mp = __DIR__ . '/knowpolitics_mps.sql';
-
-        if (file_exists($sql_mla)) {
-            $root_pdo->exec(file_get_contents($sql_mla));
+        $pdo = get_db_connection();
+        if (!$pdo) {
+            // Attempt direct connection
+            $candidate_hosts = array_unique([DB_HOST, 'localhost', 'srv921.hstgr.io', '82.25.121.173', '127.0.0.1']);
+            foreach ($candidate_hosts as $h) {
+                try {
+                    $pdo = new PDO("mysql:host={$h};port=" . DB_PORT . ";dbname=" . DB_NAME . ";charset=utf8mb4", DB_USER, DB_PASS, [
+                        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                        PDO::ATTR_TIMEOUT => 5
+                    ]);
+                    break;
+                } catch (Exception $e) {
+                    $pdo = null;
+                }
+            }
         }
-        if (file_exists($sql_mp)) {
-            $root_pdo->exec(file_get_contents($sql_mp));
+
+        if (!$pdo) {
+            throw new Exception("Unable to establish MySQL connection to " . DB_HOST . " or localhost. If connecting remotely, ensure your IP is allowed in Hostinger hPanel -> Remote MySQL.");
+        }
+
+        $sql_all = __DIR__ . '/u369924234_knowpolitics.sql';
+        if (file_exists($sql_all)) {
+            $pdo->exec(file_get_contents($sql_all));
+        } else {
+            $sql_mla = __DIR__ . '/knowpolitics_mlas.sql';
+            $sql_mp = __DIR__ . '/knowpolitics_mps.sql';
+            if (file_exists($sql_mla)) $pdo->exec(file_get_contents($sql_mla));
+            if (file_exists($sql_mp)) $pdo->exec(file_get_contents($sql_mp));
         }
 
         // Verify counts
-        $db_n = DB_NAME;
-        $total_mlas = $root_pdo->query("SELECT COUNT(*) FROM `{$db_n}`.`mlas`")->fetchColumn();
-        $total_mps = $root_pdo->query("SELECT COUNT(*) FROM `{$db_n}`.`mps`")->fetchColumn();
+        $total_mlas = $pdo->query("SELECT COUNT(*) FROM `mlas`")->fetchColumn();
+        $total_mps = $pdo->query("SELECT COUNT(*) FROM `mps`")->fetchColumn();
 
-        $message = "SUCCESS! Database `{$db_n}` updated. Total {$total_mlas} MLAs and {$total_mps} Lok Sabha MPs imported into MySQL.";
+        $message = "SUCCESS! Database `" . DB_NAME . "` migrated. Total {$total_mlas} MLAs and {$total_mps} Lok Sabha MPs imported into MySQL.";
         $status = 'success';
     } catch (Exception $e) {
         $message = "MySQL Connection / Import Error: " . $e->getMessage();

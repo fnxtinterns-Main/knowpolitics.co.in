@@ -1,0 +1,30 @@
+# KnowPolitics.co.in - Clean & Short URL Routing (.htaccess)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # 1. Short Route Aliases for States, MLAs, and MPs with State Slugs
+    # e.g., knowpolitics.co.in/states/bihar  -> states.php?state=bihar
+    #       knowpolitics.co.in/mla/bihar     -> mla.php?state=bihar
+    #       knowpolitics.co.in/mp/jharkhand  -> mp.php?state=jharkhand
+    RewriteRule ^states/([a-zA-Z0-9_-]+)/?$ states.php?state=$1 [QSA,L]
+    RewriteRule ^state/([a-zA-Z0-9_-]+)/?$ states.php?state=$1 [QSA,L]
+    RewriteRule ^mla/([a-zA-Z0-9_-]+)/?$ mla.php?state=$1 [QSA,L]
+    RewriteRule ^mp/([a-zA-Z0-9_-]+)/?$ mp.php?state=$1 [QSA,L]
+
+    # 2. Redirect explicit .php requests to extensionless short URLs (301 Permanent)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC]
+    RewriteCond %{REQUEST_URI} !^/database/
+    RewriteRule ^ %1 [R=301,L]
+
+    # 3. Resolve clean short URLs to .php files internally
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L,QSA]
+</IfModule>
+
+# Security: Disable directory browsing
+Options -Indexes
+
+# UTF-8 Encoding default
+AddDefaultCharset UTF-8
